@@ -17,7 +17,7 @@ interface ProductProps {
 
 const Product: React.FC<ProductProps> = ({ product }) => {
   return (
-    <div className="card glass w-96">
+    <div className="card glass w-90">
       <figure>
         <Image
           src={product?.product_images[0]?.url || '/images/products/product-1.jpeg'}
