@@ -71,7 +71,7 @@ function Services() {
   ];
   
   return (
-    <section className='w-3/5 flex flex-1 flex-col mt-8 lg:mt-6 xl:px-2 mx-auto '>
+    <section className='w-4/6 flex flex-1 flex-col mt-8 lg:mt-6 xl:px-2 mx-auto '>
       
       <TradeCard />
       <Trade />
